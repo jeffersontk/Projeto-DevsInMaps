@@ -5,7 +5,7 @@ const routes = require('./routes')
 const app = express()
 
 //MongoDB (não-relacional)
-mongoose.connect('mongodb+srv://userAdmin:adminUser@devmaps-m4bok.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://userAdmin:adminUser@devmaps-m4bok.mongodb.net/semana-10?retryWrites=true&w=majority', {
     useNewUrlParser: true, useUnifiedTopology: true,
 })
 
